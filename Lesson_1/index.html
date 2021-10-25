@@ -8,7 +8,44 @@
     <style>
       body {
         background-color: rgb(196, 196, 130);
+        padding: 20px;
+        box-sizing: border-box;
       }
+
+      header {
+        background-color: azure;
+        text-align: center;
+        font-size: xx-large;
+      }
+      nav {
+        float: left;
+        width: 40%;
+        background-color: blueviolet;
+        height: 300px;
+      }
+      article {
+        float: left;
+        width: 60%;
+        background-color: chartreuse;
+        height: 300px;
+        padding: 20px;
+      }
+      footer {
+        background-color: azure;
+        text-align: center;
+        font-size: xx-large;
+      }
+      section::after{
+        content:"";
+        display: table;
+        clear: both;
+      }
+@media (max-width: 1000px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
     </style>
   </head>
   <body>
@@ -58,15 +95,53 @@
       alt="SVG Wikipedia"
     />
 
-    <table style="border:2px solid black">
-      <caption>Workers</caption>
-      <thead >
-        <tr >
-          <th style="border:2px solid black">Name</th>
-          <th style="border:2px solid black">Family</th>
-          <th style="border:2px solid black">Tel number</th>
+    <table style="border: 2px solid black">
+      <caption>
+        Workers
+      </caption>
+      <thead>
+        <tr>
+          <th style="border: 2px solid black">Name</th>
+          <th style="border: 2px solid black">Family</th>
+          <th style="border: 2px solid black">Tel number</th>
         </tr>
       </thead>
     </table>
+    <iframe
+      src="https://yandex.uz/maps/10335/tashkent/geo/3359311525/?ll=69.248009%2C41.316695&z=15.87"
+      frameborder="2px solid"
+      title="Yandex map"
+      width="100%"
+      height="1000px"
+    ></iframe>
+
+    <header>
+      <h1>Cities</h1>
+    </header>
+    <section>
+      <nav>
+        <ul>
+          <li><a href="#">London</a></li>
+          <li><a href="#">London</a></li>
+          <li><a href="#">London</a></li>
+        </ul>
+      </nav>
+      <article>
+        <h1>London</h1>
+        <p>
+          London is the capital city of England. It is the most populous city in
+          the United Kingdom, with a metropolitan area of over 13 million
+          inhabitants.
+        </p>
+        <p>
+          Standing on the River Thames, London has been a major settlement for
+          two millennia, its history going back to its founding by the Romans,
+          who named it Londinium.
+        </p>
+      </article>
+    </section>
+    <footer>
+      <p>Footer</p>
+    </footer>
   </body>
 </html>
