@@ -1,25 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Form Part w3school -->
 
     <form>
-        <input type="button" value="OK">
+      <input type="button" value="OK" />
     </form>
 
-    <form action="/.gitattributes" method="get" target="_blank" style="background-color: aquamarine; width: fit-content;">
-        <label for="fname">First Name</label> <br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="lname">Last Name</label> <br>
-        <input type="text" id="lname" name="lname"> <br><br>
-        <input type="submit" value="Submit">
-
+    <form
+      action="/.gitattributes"
+      method="get"
+      target="_blank"
+      style="background-color: aquamarine; width: fit-content"
+    >
+      <fieldset>
+        <legend>Personalia</legend>
+        <label for="fname">First Name</label> <br />
+        <input type="text" id="fname" name="fname" /><br />
+        <label for="lname">Last Name</label> <br />
+        <input type="text" id="lname" name="lname" /> <br /><br />
+        <input type="submit" value="Submit" />
+      </fieldset>
     </form>
-</body>
+
+    <form>
+      <label for="select">Drop down menu</label>
+      <select name="select" id="select" size="3" multiple>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+
+      <textarea name="message" id="" cols="30" rows="10"></textarea>
+    </form>
+
+    <button type="button" onclick="alert('hello world')">Click me</button>
+
+    <form>
+      <input list="browsers" />
+      <datalist id="browsers">
+        <option value="Internet Explorer"></option>
+        <option value="Firefox"></option>
+        <option value="Chrome"></option>
+        <option value="Opera"></option>
+        <option value="Safari"></option>
+      </datalist>
+    </form>
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+</svg>
+    
+  </body>
 </html>
