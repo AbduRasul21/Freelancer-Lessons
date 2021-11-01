@@ -1,0 +1,39 @@
+
+.ex1{
+
+border: 3px solid black;
+   outline: thick solid red;
+ outline-offset: 5px;
+text-align: center;
+text-decoration: overline;
+text-transform: uppercase;
+line-height: 1.5;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+padding: 5px;
+font-family: 'Fruktur', cursive;
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
