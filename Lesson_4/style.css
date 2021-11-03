@@ -7,7 +7,13 @@
 
 ul{
     background-color: black;
-    overflow: hidden;
+   
+}
+
+ul::after {
+    content:" ";
+    clear: both;
+    display: table;
 }
 
 li{
@@ -35,12 +41,13 @@ li .active{
 }
 
 .dropdown{
-    /* position: relative; */
+    position: relative;
 }
 .dropdown_content{
     display: none;
    background-color: black;
    position: absolute;
+  
  
   min-width: 160px;
  
