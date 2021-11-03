@@ -38,7 +38,7 @@ li .active{
     /* position: relative; */
 }
 .dropdown_content{
-    /* display: none; */
+    display: none;
    background-color: black;
    position: absolute;
  
