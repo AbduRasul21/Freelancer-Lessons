@@ -12,6 +12,7 @@ ul{
 
 li{
     float: left;
+    border-right: azure;
 }
 
 li a{
@@ -26,4 +27,22 @@ li a:hover {
 
 li .active{
     background-color: darkkhaki;
+}
+
+.dropdown:hover .dropdown_content {
+ display: block;
+
+}
+
+.dropdown{
+    /* position: relative; */
+}
+.dropdown_content{
+    /* display: none; */
+   background-color: black;
+   position: absolute;
+ 
+  min-width: 160px;
+ 
+  z-index: 1;
 }
