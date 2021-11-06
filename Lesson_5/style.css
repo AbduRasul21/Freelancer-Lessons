@@ -10,14 +10,31 @@ div {
   height: 100px;
   background-color: lightblue;
   border: 1px solid black;
-  transition: width 2s, height 1s, transform 2s;
-  -webkit-transition: width 2s, height 1s, transform 2s;
-  -moz-transition: width 2s, height 1s, transform 2s;
-  -ms-transition: width 2s, height 1s, transform 2s;
-  -o-transition: width 2s, height 1s, transform 2s;
+}
+
+@keyframes example {
+  0% {
+    background-color: lightblue;
+  }
+  50% {
+    background-color: lightcoral;
+  }
+  100% {
+    background-color: lightslategray;
+  }
 }
 
 div:hover {
+  animation: example 4s 0.5s 2;
+  -webkit-animation: example 4s 0.5s 2;
+  transition: background-color 2s;
+  -webkit-transition: background-color 2s;
+  -moz-transition: background-color 2s;
+  -ms-transition: background-color 2s;
+  -o-transition: background-color 2s;
+}
+
+/* div:hover {
   width: 200px;
   height: 300px;
   transform: rotate(360deg);
@@ -25,13 +42,7 @@ div:hover {
   -moz-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
   -o-transform: rotate(360deg);
-}
-
-
-
-
-
-
+} */
 
 /* Transform div scale  */
 /* 
@@ -47,9 +58,6 @@ div:hover {
   -ms-transition: ease-in-out 0.5s;
   -o-transition: ease-in-out 0.5s;
 } */
-
-
-
 
 /* Transform div along x axis and y axis */
 /* div:hover {
