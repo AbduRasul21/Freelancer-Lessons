@@ -27,7 +27,7 @@ header{
    width: 100%;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
     .column{
         flex: 50%;
         max-width: 50%;
