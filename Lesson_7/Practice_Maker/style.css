@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Work Sans;
+}
+.header {
+  background-color: #f3feff;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.container {
+  padding: 35px 152px 90px 152px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo span {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 150%;
+  /* identical to box height, or 31px */
+
+  margin-left: 5px;
+  color: #252626;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px 0;
+  margin-right: 45px;
+  color: #969999;
+}
+
+nav a:hover, nav a:active {
+  color: #35afbf;
+  border-bottom: 2px solid #35afbf;
+}
+
+.btn {
+  padding: 15px 30px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #ffffff;
+  background: #35afbf;
+  border-radius: 6px;
+  border: none;
+}
+
+.hero_area {
+  display: flex;
+  width: 100%;
+}
+
+.hero_content {
+  margin-top: 155px;
+  width: 50%;
+}
+
+.hero_content h1 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 51px;
+  line-height: 125%;
+  /* or 64px */
+  color: black;
+}
+
+.hero_content span {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 51px;
+  line-height: 125%;
+  /* or 64px */
+
+  color: #32a3b2;
+}
+
+.hero_content p {
+  margin-top: 20px;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 160%;
+  /* or 34px */
+
+  color: #707273;
+}
+
+.hero_content .btn {
+  margin-top: 35px;
+}
+
+.hero_img{
+  position: relative;
+  margin-top: 56px;
+  width: 735px;
+  height: 570px;
+  
+}
+
+.icon_background {
+  background: #ffffff;
+  box-shadow: 0px 8px 16px rgba(197, 200, 201, 0.15);
+  border-radius: 16px;
+  padding: 24px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+ justify-content: center;
+ 
+}
+
+.hero_img .icon_1{
+  position: absolute;
+  top: 0;
+  left: 83px;
+  width: 102px;
+height: 102px;
+}
+
+.hero_img .icon_2{
+  position: absolute;
+  top: 57px;
+  right: 26px;
+  width: 112px;
+height: 112px;
+}
+
+.hero_img .icon_3{
+  position: absolute;
+  right: 66px;
+  bottom: 59px;
+  width: 94px;
+height: 92px;
+}
+
+.hero_img .icon_4{
+  position: absolute;
+  width: 96px;
+height: 114px;
+  left: 51px;
+  bottom: 16px;
+}
+
+.image_background{
+  position: absolute;
+  width: 493px;
+  height: 432px;
+  bottom: 0;
+  left: 120px;
+  
+}
