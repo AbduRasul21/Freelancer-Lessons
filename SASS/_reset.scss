@@ -1,0 +1,10 @@
+$myColor: rgb(196, 173, 173);
+
+html,body,ul,ol{
+    margin: 25px;
+    padding: 0;
+}
+
+body{
+    color: $myColor;
+}

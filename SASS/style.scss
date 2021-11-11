@@ -1,20 +1,27 @@
-
+@import "reset";
 $myFont: Helvetica, sans-serif;
-$myColor: rgb(240, 212, 212);
 $myFontSize: 18px;
 $myWidth: 680px;
 $myFont:45px;
+$borderWidth:3px;
+$containerWidth:200px;
+
 
 body {
   font-family: $myFont;
   font-size: $myFontSize;
-  color: $myColor;
+}
+
+@mixin bordered ($borderWidth,$myColor) {
+border: $borderWidth solid $myColor;  
 }
 
 #container {
+  @include bordered(10px,red);
   width: $myWidth;
 }
 
 h1{
     font-size: $myFont;
 }
+

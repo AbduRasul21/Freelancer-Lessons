@@ -1,10 +1,19 @@
+html, body, ul, ol {
+  margin: 25px;
+  padding: 0;
+}
+
+body {
+  color: #c4adad;
+}
+
 body {
   font-family: 45px;
   font-size: 18px;
-  color: #f0d4d4;
 }
 
 #container {
+  border: 10px solid red;
   width: 680px;
 }
 
