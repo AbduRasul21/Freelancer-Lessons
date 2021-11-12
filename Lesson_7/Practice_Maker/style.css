@@ -6,6 +6,7 @@
 
 body {
   font-family: Work Sans;
+ 
 }
 .header {
   background-color: #f3feff;
@@ -15,6 +16,7 @@ body {
 
 .container {
   padding: 0 152px;
+ 
 }
 
 .logo {
@@ -218,6 +220,13 @@ nav a:active {
   width: 261px;
   /* background-color: rgb(185, 183, 187); */
   text-align: center;
+  position: relative;
+}
+
+.svg_background{
+position: absolute;
+
+visibility: hidden;
 }
 
 .ellipse {
@@ -273,6 +282,11 @@ nav a:active {
   border-radius: 10px;
   outline: 1px solid #a3e0e8;
   background: #d1f4f9;
+  background-image: ;
+}
+
+.feature:hover .svg_background{
+  visibility: visible;
 }
 
 .our_clients {
