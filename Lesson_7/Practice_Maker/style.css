@@ -10,11 +10,11 @@ body {
 .header {
   background-color: #f3feff;
   margin: 0 auto;
-  max-width: 1440px;
+  padding: 35px 0 90px 0;
 }
 
 .container {
-  padding: 35px 152px 90px 152px;
+  padding: 0 152px;
 }
 
 .logo {
@@ -52,7 +52,8 @@ nav a {
   color: #969999;
 }
 
-nav a:hover, nav a:active {
+nav a:hover,
+nav a:active {
   color: #35afbf;
   border-bottom: 2px solid #35afbf;
 }
@@ -115,12 +116,11 @@ nav a:hover, nav a:active {
   margin-top: 35px;
 }
 
-.hero_img{
+.hero_img {
   position: relative;
   margin-top: 56px;
   width: 735px;
   height: 570px;
-  
 }
 
 .icon_background {
@@ -131,47 +131,113 @@ nav a:hover, nav a:active {
   z-index: 2;
   display: flex;
   align-items: center;
- justify-content: center;
- 
+  justify-content: center;
 }
 
-.hero_img .icon_1{
+.hero_img .icon_1 {
   position: absolute;
   top: 0;
   left: 83px;
   width: 102px;
-height: 102px;
+  height: 102px;
 }
 
-.hero_img .icon_2{
+.hero_img .icon_2 {
   position: absolute;
   top: 57px;
   right: 26px;
   width: 112px;
-height: 112px;
+  height: 112px;
 }
 
-.hero_img .icon_3{
+.hero_img .icon_3 {
   position: absolute;
   right: 66px;
   bottom: 59px;
   width: 94px;
-height: 92px;
+  height: 92px;
 }
 
-.hero_img .icon_4{
+.hero_img .icon_4 {
   position: absolute;
   width: 96px;
-height: 114px;
+  height: 114px;
   left: 51px;
   bottom: 16px;
 }
 
-.image_background{
+.image_background {
   position: absolute;
   width: 493px;
   height: 432px;
   bottom: 0;
   left: 120px;
-  
+}
+
+.service h1 {
+  margin-top: 120px;
+  text-align: center;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 45px;
+}
+
+.service p {
+  margin-top: 25px;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  text-align: center;
+
+  color: #707273;
+}
+
+.features {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.feature {
+  display: flex;
+  flex-direction: column;
+  width: 261px;
+  /* background-color: rgb(185, 183, 187); */
+  text-align: center;
+}
+
+.ellipse {
+  position: relative;
+  width: 83px;
+  margin: 30px 89px 0px;
+}
+
+.ellipse .svg {
+  position: absolute;
+  top: 31px;
+  left: 24px;
+}
+
+.feature h2 {
+  margin-top: 20px;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 150%;
+}
+.feature p {
+  margin: 10px 22px 35px;
+}
+
+.feature:hover {
+  border-radius: 10px;
+  border: 1px solid #a3e0e8;
+  background: #d1f4f9;
 }
