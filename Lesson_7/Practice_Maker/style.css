@@ -62,7 +62,7 @@ nav a:active {
   padding: 15px 30px;
   line-height: 19px;
   /* identical to box height */
-
+  cursor: pointer;
   color: #ffffff;
   background: #35afbf;
   border-radius: 6px;
@@ -134,6 +134,14 @@ nav a:active {
   justify-content: center;
 }
 
+.icon_background:hover {
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+}
+
 .hero_img .icon_1 {
   position: absolute;
   top: 0;
@@ -184,7 +192,7 @@ nav a:active {
   line-height: 45px;
 }
 
-.service p {
+.main_content p {
   margin-top: 25px;
   font-family: Work Sans;
   font-style: normal;
@@ -218,10 +226,35 @@ nav a:active {
   margin: 30px 89px 0px;
 }
 
-.ellipse .svg {
+.ellipse .svg_vector {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+}
+
+.svg_vector_2,
+.svg_print {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+}
+
+.svg_vector_3 {
+  position: absolute;
+  bottom: 28px;
+  right: 24px;
+}
+
+.svg_adidas {
   position: absolute;
   top: 31px;
   left: 24px;
+}
+
+.svg_content {
+  position: absolute;
+  top: 24px;
+  left: 28px;
 }
 
 .feature h2 {
@@ -238,6 +271,39 @@ nav a:active {
 
 .feature:hover {
   border-radius: 10px;
-  border: 1px solid #a3e0e8;
+  outline: 1px solid #a3e0e8;
   background: #d1f4f9;
+}
+
+.our_clients {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 120px 0 127px;
+}
+
+.our_clients_content {
+  margin: 80px 0;
+  width: 449px;
+}
+
+.our_clients_content h3 {
+  margin-top: 10px;
+}
+
+.our_clients_content p {
+  text-align: start;
+}
+
+.our_clients_content .btn {
+  margin-top: 35px;
+  border: 1px solid rgba(53, 175, 191, 0.2);
+  background-color: transparent;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+
+  color: #35afbf;
 }
