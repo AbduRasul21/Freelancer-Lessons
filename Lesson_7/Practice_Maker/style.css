@@ -73,6 +73,13 @@ nav a:active {
   display: flex;
   width: 100%;
 }
+.hero_area_background{
+  position: absolute;
+  right: -50px;
+  bottom: 170px;
+  z-index: 2;
+}
+
 
 .hero_content {
   margin-top: 155px;
