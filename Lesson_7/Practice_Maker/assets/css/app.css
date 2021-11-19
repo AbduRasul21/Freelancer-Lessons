@@ -275,13 +275,14 @@ body {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 120%;
-	/* or 19px */
-
 	color: #35afbf;
 }
 
 .video_section {
-	background-image: url(./img/Background_how_we_work.svg);
+	width: 1451px;
+	height: 501px;
+	margin: 0 auto;
+	background-image: url(../images/Background_how_we_work.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -320,6 +321,9 @@ body {
 }
 
 .testimonial {
+	width: 1440px;
+	height: 501px;
+	margin: 0 auto;
 	margin-top: 120px;
 	background-image: url(./img/vecotrs_testimonilas.svg);
 	background-color: #d1f4f9;
@@ -381,6 +385,9 @@ body {
 
 .footer {
 	background-color: #2c353e;
+	width: 1440px;
+	height: 589px;
+	margin: 0 auto;
 }
 
 .footer_main_content {
