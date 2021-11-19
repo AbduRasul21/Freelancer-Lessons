@@ -8,7 +8,6 @@ body {
 	font-family: 'Work Sans';
 }
 
-
 /*/////////////////////////////////////////
 //////  Container Style Starts 
 /////////////////////////////////////////*/
@@ -37,9 +36,7 @@ body {
 	}
 }
 
-
 /****************** Container Style Ends ******************/
-
 
 /*/////////////////////////////////////////
 //////  Button Style Starts 
@@ -70,7 +67,6 @@ body {
 
 /****************** Header Style Ends ******************/
 
-
 /*/////////////////////////////////////////
 //////  Header Style Starts 
 /////////////////////////////////////////*/
@@ -78,21 +74,18 @@ body {
 /* BEM - Block Element Modifier */
 
 .header {
+	position: relative;
+	width: 1440px;
+	height: 800px;
 	background-color: #f3feff;
 	margin: 0 auto;
 	padding: 35px 0 90px 0;
+	z-index: 1;
 }
 
 .header__main {
 	display: flex;
 	width: 100%;
-}
-
-.header__background-image {
-	position: absolute;
-	right: -50px;
-	bottom: 170px;
-	z-index: 2;
 }
 
 .header__content {
@@ -133,10 +126,11 @@ body {
 }
 
 .header__image {
-	position: relative;
-	margin-top: 56px;
-	width: 735px;
-	height: 570px;
+	position: absolute;
+	bottom: 42px;
+	left: 628px;
+	overflow: hidden;
+	z-index: -1;
 }
 
 /****************** Header Style Ends ******************/
@@ -153,8 +147,6 @@ body {
 	font-weight: 600;
 	font-size: 21px;
 	line-height: 150%;
-	/* identical to box height, or 31px */
-
 	margin-left: 5px;
 	color: #252626;
 }
@@ -176,75 +168,9 @@ body {
 	color: #969999;
 }
 
-.header .navbar a:hover,
-.header nav a:active {
+.header .navbar a:hover {
 	color: #35afbf;
 	border-bottom: 2px solid #35afbf;
-}
-
-.header .background_girl img {
-	position: absolute;
-	z-index: 1;
-	bottom: 0;
-}
-
-.header .icon_background {
-	background: #ffffff;
-	box-shadow: 0px 8px 16px rgba(197, 200, 201, 0.15);
-	border-radius: 16px;
-	padding: 24px;
-	z-index: 2;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.icon_background:hover {
-	transform: scale(0.9);
-	-webkit-transform: scale(0.9);
-	-moz-transform: scale(0.9);
-	-ms-transform: scale(0.9);
-	-o-transform: scale(0.9);
-}
-
-.hero_img .icon_1 {
-	position: absolute;
-	top: 0;
-	left: 83px;
-	width: 102px;
-	height: 104px;
-}
-
-.hero_img .icon_2 {
-	position: absolute;
-	top: 57px;
-	right: 26px;
-	width: 112px;
-	height: 112px;
-}
-
-.hero_img .icon_3 {
-	position: absolute;
-	right: 66px;
-	bottom: 59px;
-	width: 94px;
-	height: 92px;
-}
-
-.hero_img .icon_4 {
-	position: absolute;
-	width: 96px;
-	height: 114px;
-	left: 51px;
-	bottom: 16px;
-}
-
-.image_background {
-	position: absolute;
-	width: 493px;
-	height: 432px;
-	bottom: 0;
-	left: 120px;
 }
 
 .service h1 {
@@ -297,37 +223,6 @@ body {
 	position: relative;
 	width: 83px;
 	margin: 30px 89px 0px;
-}
-
-.ellipse .svg_vector {
-	position: absolute;
-	top: 24px;
-	left: 24px;
-}
-
-.svg_vector_2,
-.svg_print {
-	position: absolute;
-	top: 24px;
-	left: 24px;
-}
-
-.svg_vector_3 {
-	position: absolute;
-	bottom: 28px;
-	right: 24px;
-}
-
-.svg_adidas {
-	position: absolute;
-	top: 31px;
-	left: 24px;
-}
-
-.svg_content {
-	position: absolute;
-	top: 24px;
-	left: 28px;
 }
 
 .feature h2 {
