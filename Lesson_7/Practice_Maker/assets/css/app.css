@@ -8,6 +8,10 @@ body {
 	font-family: 'Work Sans';
 }
 
+body a {
+	text-decoration: none;
+}
+
 /*/////////////////////////////////////////
 //////  Container Style Starts 
 /////////////////////////////////////////*/
@@ -48,14 +52,15 @@ body {
 	color: #ffffff;
 	background-color: #35afbf;
 	line-height: auto;
+	font-weight: 500;
 	font-size: 16px;
+	line-height: 120%;
 	border-radius: 6px;
 	border: none;
 }
 
 .button_large {
 	padding: 15px 35px;
-	font-weight: 500;
 	font-size: 21px;
 	line-height: 150%;
 }
@@ -65,7 +70,75 @@ body {
 	background-color: transparent;
 }
 
-/****************** Header Style Ends ******************/
+/****************** Button Style Ends ******************/
+
+/*/////////////////////////////////////////
+//////  Font Style Starts 
+/////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+/*/////////////////////////////////////////
+//////  Navbar Style Starts 
+/////////////////////////////////////////*/
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar_logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.navbar_brand-name {
+	font-family: Work Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 21px;
+	line-height: 150%;
+	margin-left: 5px;
+	color: #252626;
+}
+
+.navbar a {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	padding: 10px 0;
+	margin-right: 45px;
+	color: #969999;
+}
+
+.navbar a:hover {
+	color: #35afbf;
+	border-bottom: 2px solid #35afbf;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*/////////////////////////////////////////
 //////  Header Style Starts 
@@ -99,7 +172,7 @@ body {
 	font-weight: bold;
 	font-size: 51px;
 	line-height: 125%;
-	color: black;
+	
 }
 
 .header__text-blue {
@@ -135,43 +208,11 @@ body {
 
 /****************** Header Style Ends ******************/
 
-.header .logo {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
 
-.header .logo span {
-	font-family: Work Sans;
-	font-style: normal;
-	font-weight: 600;
-	font-size: 21px;
-	line-height: 150%;
-	margin-left: 5px;
-	color: #252626;
-}
 
-.header .navbar {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
 
-.header .navbar a {
-	text-decoration: none;
-	font-family: Work Sans;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 16px;
-	padding: 10px 0;
-	margin-right: 45px;
-	color: #969999;
-}
 
-.header .navbar a:hover {
-	color: #35afbf;
-	border-bottom: 2px solid #35afbf;
-}
+
 
 .service h1 {
 	margin-top: 120px;
