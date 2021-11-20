@@ -76,13 +76,42 @@ body a {
 //////  Font Style Starts 
 /////////////////////////////////////////*/
 
+.title {
+	text-align: center;
+	font-family: Work Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 38px;
+	line-height: 45px;
+}
 
+.title_light {
+	color: #ffffff;
+}
 
+.title_secondary {
+	font-family: Work Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 21px;
+	line-height: 150%;
+}
 
+.paragraph {
+	font-family: Work Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 160%;
+	text-align: center;
+	color: #707273;
+}
 
+.paragraph_light {
+	color: #ffffff;
+}
 
-
-
+/****************** Button Style Ends ******************/
 
 /*/////////////////////////////////////////
 //////  Navbar Style Starts 
@@ -94,13 +123,13 @@ body a {
 	align-items: center;
 }
 
-.navbar_logo {
+.navbar__logo {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.navbar_brand-name {
+.navbar__brand-name {
 	font-family: Work Sans;
 	font-style: normal;
 	font-weight: 600;
@@ -110,7 +139,7 @@ body a {
 	color: #252626;
 }
 
-.navbar a {
+.navbar__menu a {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
@@ -123,22 +152,6 @@ body a {
 	color: #35afbf;
 	border-bottom: 2px solid #35afbf;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*/////////////////////////////////////////
 //////  Header Style Starts 
@@ -172,7 +185,6 @@ body a {
 	font-weight: bold;
 	font-size: 51px;
 	line-height: 125%;
-	
 }
 
 .header__text-blue {
@@ -208,43 +220,27 @@ body a {
 
 /****************** Header Style Ends ******************/
 
+/*/////////////////////////////////////////
+//////  Main-content Style Starts 
+/////////////////////////////////////////*/
 
-
-
-
-
-
-.service h1 {
+.main-content__title {
 	margin-top: 120px;
-	text-align: center;
-	font-family: Work Sans;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 38px;
-	line-height: 45px;
 }
 
-.main_content p {
+.main-content__paragraph {
 	margin-top: 25px;
-	font-family: Work Sans;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 160%;
-	/* or 26px */
-
-	text-align: center;
-
-	color: #707273;
+	margin-left: 268px;
+	margin-right: 270px;
 }
 
-.features {
+.main-content__features {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	margin-top: 60px;
 }
-.feature {
+.main-content__feature {
 	display: flex;
 	flex-direction: column;
 	width: 261px;
@@ -254,39 +250,38 @@ body a {
 	position: relative;
 }
 
-.svg_background {
+.main-content__feature-background {
 	position: absolute;
-
 	visibility: hidden;
 }
 
-.ellipse {
+.main-content__image {
 	position: relative;
 	width: 83px;
 	margin: 30px 89px 0px;
 }
 
-.feature h2 {
+.main-content__title_secondary {
 	margin-top: 20px;
-	font-family: Work Sans;
-	font-style: normal;
-	font-weight: 600;
-	font-size: 21px;
-	line-height: 150%;
 }
-.feature p {
+.main-content__features__paragraph {
 	margin: 10px 22px 35px;
 }
 
-.feature:hover {
+.main-content__feature:hover {
 	border-radius: 10px;
 	outline: 1px solid #a3e0e8;
 	background: #d1f4f9;
 }
 
-.feature:hover .svg_background {
+.main-content__feature:hover .main-content__feature-background {
 	visibility: visible;
 }
+
+/****************** Main-content Style Ends ******************/
+
+
+
 
 .our_clients {
 	display: flex;
