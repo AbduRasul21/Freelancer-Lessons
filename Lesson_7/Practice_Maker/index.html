@@ -1,289 +1,485 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/app.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
-    <title>Maker</title>
-</head>
-<body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="assets/css/app.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Maker</title>
+	</head>
+	<body>
+		<!-- Header Start -->
+		<header class="header">
+			<div class="container">
+				<!-- Navbar Start -->
 
-    <!-- Header Start -->
-    <header class="header">
-        <div class="container">
+				<nav class="navbar">
+					<div class="navbar__logo">
+						<img src="./assets/images/logo.svg" alt="logo_maker" />
+						<span class="navbar__brand-name">Maker</span>
+					</div>
+					<div class="navbar__menu">
+						<a href="#">Home</a>
+						<a href="#">Services</a>
+						<a href="#">About</a>
+						<a href="#">The Team</a>
+						<a href="#">Pricing</a>
+						<a href="#">Contact</a>
+					</div>
+					<button class="button">Sign Up</button>
+				</nav>
 
-            <!-- Navbar Start -->
+				<!-- Navbar Ends -->
 
-            <nav class="navbar">
-                <div class="navbar__logo">
-                    <img src="./assets/images/logo.svg" alt="logo_maker" />
-                    <span class="navbar__brand-name">Maker</span>
-                </div>
-                <div class="navbar__menu">
-                    <a href="#">Home</a>
-                    <a href="#">Services</a>
-                    <a href="#">About</a>
-                    <a href="#">The Team</a>
-                    <a href="#">Pricing</a>
-                    <a href="#">Contact</a>
-                </div>
-                <button class="button" >Sign Up</button>
-            </nav>
+				<div class="header__main">
+					<div class="header__content">
+						<h1 class="header__title">
+							<span class="header__text-blue">Make</span> a
+							Creative solutions for your Creative
+							<span class="header__text-blue">ideas.</span>
+						</h1>
+						<p class="header__paragraph">
+							We are here to give you effective ideas. We help the
+							brands to become what they want.
+						</p>
+						<button class="button button_large header__cta">
+							Get Started
+						</button>
+					</div>
+					<div class="header__image">
+						<img src="./assets/images/hero_image.svg" alt="" />
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- Header Ends -->
 
-            <!-- Navbar Ends -->
+		<!-- Main-content Start -->
 
-            <div class="header__main">
-                <div class="header__content">
-                    <h1 class="header__title">
-                        <span class="header__text-blue">Make</span> a Creative solutions for your Creative
-                        <span class="header__text-blue">ideas.</span>
-                    </h1>
-                    <p class="header__paragraph">
-                        We are here to give you effective ideas. We help the brands to
-                        become what they want.
-                    </p>
-                    <button class="button button_large header__cta">Get Started</button>
-                </div>
-                <div class="header__image">
-                    <img src="./assets/images/hero_image.svg" alt="">
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- Header Ends -->
+		<div class="main-content">
+			<div class="container">
+				<div class="service">
+					<h2 class="title main-content__title">
+						We provide great services
+					</h2>
+					<p class="paragraph main-content__paragraph">
+						We help people to think independent. Be the boss of your
+						brand and be the storyteller. An appropriate approach.
+					</p>
+					<div class="features">
+						<div class="features__feature">
+							<img
+								class="features__feature-background"
+								src="./assets/images/background.svg"
+								alt="feature_background"
+							/>
+							<div class="features__image">
+								<img
+									src="./assets/images/icon_web_design.svg"
+									alt=""
+								/>
+							</div>
+							<h3
+								class="
+									title_secondary
+									features__title_secondary
+								"
+							>
+								Web Design
+							</h3>
+							<p class="paragraph features__paragraph">
+								Powerful creations for the practice safe design.
+							</p>
+						</div>
+						<div class="features__feature">
+							<img
+								class="features__feature-background"
+								src="./assets/images/background.svg"
+							/>
+							<div class="features__image">
+								<img
+									src="./assets/images/icon_identity_branding.svg"
+									alt=""
+								/>
+							</div>
+							<h3
+								class="
+									title_secondary
+									features__title_secondary
+								"
+							>
+								Identity & Branding
+							</h3>
+							<p class="paragraph features__paragraph">
+								Powerful creations for the practice safe design.
+							</p>
+						</div>
+						<div class="features__feature">
+							<img
+								class="features__feature-background"
+								src="./assets/images/background.svg"
+							/>
+							<div class="features__image">
+								<img
+									src="./assets/images/icon_print_packaging.svg"
+									alt=""
+								/>
+							</div>
+							<h3
+								class="
+									title_secondary
+									features__title_secondary
+								"
+							>
+								Print and Packaging
+							</h3>
+							<p class="paragraph features__features__paragraph">
+								Powerful creations for the practice safe design.
+							</p>
+						</div>
+						<div class="features__feature">
+							<img
+								class="features__feature-background"
+								src="./assets/images/background.svg"
+							/>
+							<div class="features__image">
+								<img
+									src="./assets/images/icon_content_writing.svg"
+									alt=""
+								/>
+							</div>
+							<h3
+								class="
+									title_secondary
+									features__title_secondary
+								"
+							>
+								Content Writing
+							</h3>
+							<p class="paragraph features__paragraph">
+								Powerful creations for the practice safe design.
+							</p>
+						</div>
+					</div>
+				</div>
 
-    <!-- Main-content Start -->
+				<div class="clients">
+					<div class="clients__content">
+						<h2 class="title clients__title">Johnathan Doe</h2>
+						<h3 class="paragraph clients__secondary_title">
+							Marketing Specialist
+							<span style="font-weight: bolder"> ____ </span>
+						</h3>
+						<p class="paragraph clients__paragraph">
+							To make your web design company famous in the little
+							we are here to provide you as many as catchy and
+							useful web design company will surely help your
+							company.
+						</p>
+						<button class="button clients__button">
+							Learn More
+						</button>
+					</div>
+					<div class="our_clients_image">
+						<img
+							src="./assets/images/Image_our_clients.svg"
+							alt=""
+						/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Main-content Ends -->
 
-    <div class="main-content">
-        <div class="container">
-            <div class="service">
-                <h2 class="title main-content__title">We provide great services</h2>
-                <p class="paragraph main-content__paragraph">
-                    We help people to think independent. Be the boss of your brand and
-                    be the storyteller. An appropriate approach.
-                </p>
-                <div class="main-content__features">
-                    <div class="main-content__feature">
-                        <img class="main-content__feature-background" 
-                        src="./assets/images/background.svg" alt="feature_background" />
-                        <div class="main-content__image">
-                            <img src="./assets/images/icon_web_design.svg" alt="">
-                        </div>
-                        <h3 class="title_secondary main-content__title_secondary">Web Design</h3>
-                        <p class="paragraph main-content__features__paragraph">Powerful creations for the practice safe design.</p>
-                    </div>
-                    <div class="main-content__feature">
-                        <img class="main-content__feature-background" src="./assets/images/background.svg" />
-                        <div class="main-content__image">
-                          <img src="./assets/images/icon_identity_branding.svg" alt="">
-                        </div>
-                        <h3 class="title_secondary main-content__title_secondary">Identity & Branding</h3>
-                        <p class="paragraph main-content__features__paragraph" >Powerful creations for the practice safe design.</p>
-                    </div>
-                    <div class="main-content__feature">
-                        <img class="main-content__feature-background" src="./assets/images/background.svg" />
-                        <div class="main-content__image">
-                            <img src="./assets/images/icon_print_packaging.svg" alt="">
-                        </div>
-                        <h3 class="title_secondary main-content__title_secondary">Print and Packaging</h3>
-                        <p class="paragraph main-content__features__paragraph" >Powerful creations for the practice safe design.</p>
-                    </div>
-                    <div class="main-content__feature">
-                        <img class="main-content__feature-background" src="./assets/images/background.svg" />
-                        <div class="main-content__image">
-                           <img src="./assets/images/icon_content_writing.svg" alt="">
-                        </div>
-                        <h3 class="title_secondary main-content__title_secondary">Content Writing</h3>
-                        <p class="paragraph main-content__features__paragraph" >Powerful creations for the practice safe design.</p>
-                    </div>
-                </div>
-            </div>
+		<!-- Video-section Start -->
 
+		<div class="video-section">
+			<h1 class="title">Watch how we work</h1>
+			<p class="paragraph_light">
+				Capture more customers with a great brand recall. Whether you
+				need a timing or as a tagline for your business, our slogan
+				generator will help you come up with us.
+			</p>
+			<img
+				class="video-section__image"
+				src="./assets/images/play_button_video_section.svg"
+				alt="play_button_video_section"
+			/>
+		</div>
 
-            
-            <div class="our_clients">
-                <div class="our_clients_content">
-                    <h1>Johnatan Doe</h1>
-                    <h3>
-                        Marketing Specialist
-                        <span style="font-weight: bolder"> ____ </span>
-                    </h3>
-                    <p>
-                        To make your web design company famous in the little we are here
-                        to provide you as many as catchy and useful web design company
-                        will surely help your company.
-                    </p>
-                    <button class="button">Learn More</button>
-                </div>
-                <div class="our_clients_image">
-                    <img src="./assets/images/Image_our_clients.svg" alt="" />
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Main-content Start -->
+		<!-- Video-section Ends -->
 
-    <!-- Video-section Start -->
+		<!-- Best-features Starts -->
 
-    <div class="video_section">
-        <h1>Watch how we work</h1>
-        <p>
-            Capture more customers with a great brand recall. Whether you need a
-            tising or as a tagline for your business, our slogan generator will help
-            you come up with us.
-        </p>
-        <img src="./assets/images/play_button_video_section.svg" alt="play_button_video_section" />
-    </div>
-    <div class="main_content_2">
-        <div class="container">
-            <div class="best_features">
-                <h1>Best features in the world</h1>
-                <p>
-                    Capture more customers wd recall. Whether you need a tising or as a
-                    tagline for you. Capture more customers wd recall. Whether you need
-                    a tising or as a tagline for you.
-                </p>
+		<div class="best-features">
+			<h1 class="title">Best features in the world</h1>
+			<p class="paragraph best-features__paragraph">
+				Capture more customers wd recall. Whether you need a tising or
+				as a tagline for you. Capture more customers wd recall. Whether
+				you need a timing or as a tagline for you.
+			</p>
 
-                <div class="features main_2">
-                    <div class="feature">
-                        <img class="img_main_2" src="./assets/images/smooth_animation.svg" alt="smooth_animation">
-                        <h2>Responsive on any device</h2>
-                        <p>Powerful creations for the practice safe design creations for the prac.</p>
-                        <img src="./assets/images/feature_bottom_line.svg" alt="feature_bottom_line">
-                    </div>
+			<div class="features best-features__features">
+				<div class="feature">
+					<img
+						class="best-features__image"
+						src="./assets/images/smooth_animation.svg"
+						alt="smooth_animation"
+					/>
+					<h3 class="title_secondary best-features__title_secondary">
+						Responsive on any device
+					</h3>
+					<p class="paragraph features__paragraph">
+						Powerful creations for the practice safe design
+						creations for the proc.
+					</p>
+					<img
+						src="./assets/images/feature_bottom_line.svg"
+						alt="feature_bottom_line"
+					/>
+				</div>
 
-                    <div class="feature">
-                        <img class="img_main_2" src="./assets/images/crafted.svg" alt="crafted">
-                        <h2>Easy to customize</h2>
-                        <p>Powerful creations for the practice safe design creations for the prac.</p>
-                        <img src="./assets/images/feature_bottom_line.svg" alt="feature_bottom_line">
-                    </div>
+				<div class="feature">
+					<img
+						class="best-features__image"
+						src="./assets/images/crafted.svg"
+						alt="crafted"
+					/>
+					<h3 class="title_secondary best-features__title_secondary">
+						Easy to customize
+					</h3>
+					<p class="paragraph features__paragraph">
+						Powerful creations for the practice safe design
+						creations for the proc.
+					</p>
+					<img
+						src="./assets/images/feature_bottom_line.svg"
+						alt="feature_bottom_line"
+					/>
+				</div>
 
-                    <div class="feature">
-                        <img class="img_main_2" src="./assets/images/save_time.svg" alt="save_time">
-                        <h2>Quickly effective support</h2>
-                        <p>Powerful creations for the practice safe design creations for the prac.</p>
-                        <img src="./assets/images/feature_bottom_line.svg" alt="feature_bottom_line">
-                    </div>
-                </div>
+				<div class="feature">
+					<img
+						class="best-features__image"
+						src="./assets/images/save_time.svg"
+						alt="save_time"
+					/>
+					<h3 class="title_secondary best-features__title_secondary">
+						Quickly effective support
+					</h3>
+					<p class="paragraph features__paragraph">
+						Powerful creations for the practice safe design
+						creations for the proc.
+					</p>
+					<img
+						src="./assets/images/feature_bottom_line.svg"
+						alt="feature_bottom_line"
+					/>
+				</div>
+			</div>
 
-                <div class="features main_2">
-                    <div class="feature">
-                        <img class="img_main_2" src="./assets/images/recponsive_device.svg" alt="recponsive_device">
-                        <h2>Responsive on any device</h2>
-                        <p>Powerful creations for the practice safe design creations for the prac.</p>
-                        <img src="./assets/images/feature_bottom_line.svg" alt="feature_bottom_line">
-                    </div>
+			<div class="features best-features__features">
+				<div class="feature">
+					<img
+						class="best-features__image"
+						src="./assets/images/recponsive_device.svg"
+						alt="recponsive_device"
+					/>
+					<h3 class="title_secondary best-features__title_secondary">
+						Responsive on any device
+					</h3>
+					<p class="paragraph features__paragraph">
+						Powerful creations for the practice safe design
+						creations for the proc.
+					</p>
+					<img
+						src="./assets/images/feature_bottom_line.svg"
+						alt="feature_bottom_line"
+					/>
+				</div>
 
-                    <div class="feature">
-                        <img class="img_main_2" src="./assets/images/easy_customize.svg" alt="easy_customize">
-                        <h2>Easy to customize</h2>
-                        <p>Powerful creations for the practice safe design creations for the prac.</p>
-                        <img src="./assets/images/feature_bottom_line.svg" alt="feature_bottom_line">
-                    </div>
+				<div class="feature">
+					<img
+						class="best-features__image"
+						src="./assets/images/easy_customize.svg"
+						alt="easy_customize"
+					/>
+					<h3 class="title_secondary best-features__title_secondary">
+						Easy to customize
+					</h3>
+					<p class="paragraph features__paragraph">
+						Powerful creations for the practice safe design
+						creations for the proc.
+					</p>
+					<img
+						src="./assets/images/feature_bottom_line.svg"
+						alt="feature_bottom_line"
+					/>
+				</div>
 
-                    <div class="feature">
-                        <img class="img_main_2" src="./assets/images/support.svg" alt="support">
-                        <h2>Quickly effective support</h2>
-                        <p>Powerful creations for the practice safe design creations for the prac.</p>
-                        <img src="./assets/images/feature_bottom_line.svg" alt="feature_bottom_line">
-                    </div>
-                </div>
+				<div class="feature">
+					<img
+						class="best-features__image"
+						src="./assets/images/support.svg"
+						alt="easy_customize"
+					/>
+					<h3 class="title_secondary best-features__title_secondary">
+						Quickly effective support
+					</h3>
+					<p class="paragraph features__paragraph">
+						Powerful creations for the practice safe design
+						creations for the proc.
+					</p>
+					<img
+						src="./assets/images/feature_bottom_line.svg"
+						alt="feature_bottom_line"
+					/>
+				</div>
+			</div>
+		</div>
 
-            </div>
-        </div>
-    </div>
-    </div>
-    <div class="testimonial">
-        <img class="logo_testimonial" src="./assets/images/Logo_svg.svg" alt="Logo_svg">
+		<!-- Testimonial Starts -->
 
-        <p>“Always a pleasure to work with The Agency Creative. Such professional and happy people and you know you’ll
-            receive a quick innovative and no fuss service.”</p>
-        <div class="testimonial_profile">
-            <img src="./assets/images/testimonial_profile.png" alt="testimonial_profile">
-            <span>
-                <h4>Johnatan Doe </h4>
-                <h6>Web Designer</h6>
-            </span>
-        </div>
-    </div>
-    <div class="full_cta">
-        <h1>People have tried to predict the future since the dawn of time.</h1>
-        <button class="button" onclick="alert('Hello world')">Get Started</button>
-    </div>
+		<div class="testimonial">
+			<img
+				class="testimonial__logo"
+				src="./assets/images/Logo_svg.svg"
+				alt="Logo_svg"
+			/>
 
-    <footer class="footer">
-        <div class="container">
-            <div class="footer_main_content">
-                <div class="main_content_blocks">
-                    <div class="main_content_block">
-                        <h1>Freelancer</h1>
-                        <h2> <sup class="span">$</sup>19<sub class="span">/mo</sub></h2>
-                        <p>5 Psd fles included</p>
-                        <p>24 hours free support</p>
-                        <p>Multiple features installed</p>
-                        <p>100 Elements PSD + Al</p>
-                        <button class="button secondary">Subscribe</button>
-                    </div>
-                    <div class="main_content_block">
-                        <h1>Freelancer</h1>
-                        <h2> <sup class="span">$</sup>19<sub class="span">/mo</sub></h2>
-                        <p>5 Psd fles included</p>
-                        <p>24 hours free support</p>
-                        <p>Multiple features installed</p>
-                        <p>100 Elements PSD + Al</p>
-                        <button class="button secondary">Subscribe</button>
-                    </div>
-                    <div class="main_content_block">
-                        <h1>Freelancer</h1>
-                        <h2> <sup class="span">$</sup>19<sub class="span">/mo</sub></h2>
-                        <p>5 Psd fles included</p>
-                        <p>24 hours free support</p>
-                        <p>Multiple features installed</p>
-                        <p>100 Elements PSD + Al</p>
-                        <button class="button secondary">Subscribe</button>
-                    </div>
-                    <div class="main_content_block">
-                        <h1>Freelancer</h1>
-                        <h2> <sup class="span">$</sup>19<sub class="span">/mo</sub></h2>
-                        <p>5 Psd files included</p>
-                        <p>24 hours free support</p>
-                        <p>Multiple features installed</p>
-                        <p>100 Elements PSD + Al</p>
-                        <button class="button secondary">Subscribe</button>
-                    </div>
-                </div>
+			<p class="testimonial__paragraph">
+				“Always a pleasure to work with The Agency Creative. Such
+				professional and happy people and you know you’ll receive a
+				quick innovative and no fuss service.”
+			</p>
+			<div class="testimonial__profile">
+				<img
+					src="./assets/images/testimonial_profile.png"
+					alt="testimonial_profile"
+				/>
+				<span>
+					<h4>Johnathan Doe</h4>
+					<h6>Web Designer</h6>
+				</span>
+			</div>
+		</div>
 
-                <div class="navbar navbar_footer">
+		<div class="full-cta">
+			<h1>
+				People have tried to predict the future since the dawn of time.
+			</h1>
+			<button
+				class="button full-cta__button"
+				onclick="alert('Hello world')"
+			>
+				Get Started
+			</button>
+		</div>
 
-                    <div class="menu">
-                        <a href="#">Home</a>
-                        <a href="#">Services</a>
-                        <a href="#">About</a>
-                        <a href="#">The Team</a>
-                        <a href="#">Pricing</a>
-                        <a href="#">Contact</a>
-                    </div>
+		<!-- Testimonial Ends -->
 
-                    <div class="social_link">
-                        <a href="#"><img src="./assets/images/f 1.svg" alt="facebook"></a>
-                        <a href="#"><img src="./assets/images/Twiter.svg" alt="Twiter"></a>
-                        <a href="#"><img src="./assets/images/whatsapp.svg" alt="whatsapp"></a>
-                        <a target="blank" href="https://www.instagram.com/"><img src="./assets/images/instagram.svg"
-                                alt="instagram"></a>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer_main_content">
+					<div class="main_content_blocks">
+						<div class="main_content_block">
+							<h1>Freelancer</h1>
+							<h2>
+								<sup class="span">$</sup>19<sub class="span"
+									>/mo</sub
+								>
+							</h2>
+							<p>5 Psd files included</p>
+							<p>24 hours free support</p>
+							<p>Multiple features installed</p>
+							<p>100 Elements PSD + Al</p>
+							<button class="button secondary">Subscribe</button>
+						</div>
+						<div class="main_content_block">
+							<h1>Freelancer</h1>
+							<h2>
+								<sup class="span">$</sup>19<sub class="span"
+									>/mo</sub
+								>
+							</h2>
+							<p>5 Psd files included</p>
+							<p>24 hours free support</p>
+							<p>Multiple features installed</p>
+							<p>100 Elements PSD + Al</p>
+							<button class="button secondary">Subscribe</button>
+						</div>
+						<div class="main_content_block">
+							<h1>Freelancer</h1>
+							<h2>
+								<sup class="span">$</sup>19<sub class="span"
+									>/mo</sub
+								>
+							</h2>
+							<p>5 Psd files included</p>
+							<p>24 hours free support</p>
+							<p>Multiple features installed</p>
+							<p>100 Elements PSD + Al</p>
+							<button class="button secondary">Subscribe</button>
+						</div>
+						<div class="main_content_block">
+							<h1>Freelancer</h1>
+							<h2>
+								<sup class="span">$</sup>19<sub class="span"
+									>/mo</sub
+								>
+							</h2>
+							<p>5 Psd files included</p>
+							<p>24 hours free support</p>
+							<p>Multiple features installed</p>
+							<p>100 Elements PSD + Al</p>
+							<button class="button secondary">Subscribe</button>
+						</div>
+					</div>
 
-                    </div>
-                </div>
-                <p class="p">@ A new era 2016. Awesome wireframe by Andrei Dorin</p>
+					<div class="navbar navbar_footer">
+						<div class="menu">
+							<a href="#">Home</a>
+							<a href="#">Services</a>
+							<a href="#">About</a>
+							<a href="#">The Team</a>
+							<a href="#">Pricing</a>
+							<a href="#">Contact</a>
+						</div>
 
-            </div>
-        </div>
-    </footer>
-
-</body>
-
+						<div class="social_link">
+							<a href="#"
+								><img
+									src="./assets/images/f 1.svg"
+									alt="facebook"
+							/></a>
+							<a href="#"
+								><img
+									src="./assets/images/Twiter.svg"
+									alt="Twiter"
+							/></a>
+							<a href="#"
+								><img
+									src="./assets/images/whatsapp.svg"
+									alt="whatsapp"
+							/></a>
+							<a target="blank" href="https://www.instagram.com/"
+								><img
+									src="./assets/images/instagram.svg"
+									alt="instagram"
+							/></a>
+						</div>
+					</div>
+					<p class="p">
+						@ A new era 2016. Awesome wire frame by Andrei Doric
+					</p>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>
