@@ -1,22 +1,29 @@
+/*/////////////////////////////////////////
+//////  Button Style Starts 
+/////////////////////////////////////////*/
+
 .button {
 	padding: 15px 30px;
 	cursor: pointer;
 	color: #ffffff;
 	background-color: #35afbf;
 	line-height: auto;
+	font-weight: 500;
 	font-size: 16px;
+	line-height: 120%;
 	border-radius: 6px;
 	border: none;
 }
 
-.button.large {
+.button_large {
 	padding: 15px 35px;
-	font-weight: 500;
 	font-size: 21px;
 	line-height: 150%;
 }
 
-.button.secondary {
+.button_secondary {
 	border: 2px solid rgba(255, 255, 255, 0.3);
 	background-color: transparent;
 }
+
+/****************** Button Style Ends ******************/

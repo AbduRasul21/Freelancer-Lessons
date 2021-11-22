@@ -1,3 +1,8 @@
+@import 'button';
+@import 'container';
+@import 'fonts';
+@import 'navbar';
+
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -11,163 +16,6 @@ body {
 body a {
 	text-decoration: none;
 }
-
-/*/////////////////////////////////////////
-//////  Container Style Starts 
-/////////////////////////////////////////*/
-.container {
-	width: 1135px;
-	margin: 0 auto;
-}
-
-@media only screen and (max-width: 1183px) {
-	.container {
-		width: 768px;
-	}
-}
-
-@media only screen and (max-width: 804px) {
-	.container {
-		width: 576px;
-	}
-}
-
-@media only screen and (max-width: 612px) {
-	.container {
-		width: 100%;
-		padding-right: 16px;
-		padding-left: 16px;
-	}
-}
-
-/****************** Container Style Ends ******************/
-
-/*/////////////////////////////////////////
-//////  Button Style Starts 
-/////////////////////////////////////////*/
-
-.button {
-	padding: 15px 30px;
-	cursor: pointer;
-	color: #ffffff;
-	background-color: #35afbf;
-	line-height: auto;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 120%;
-	border-radius: 6px;
-	border: none;
-}
-
-.button_large {
-	padding: 15px 35px;
-	font-size: 21px;
-	line-height: 150%;
-}
-
-.button_secondary {
-	border: 2px solid rgba(255, 255, 255, 0.3);
-	background-color: transparent;
-}
-
-/****************** Button Style Ends ******************/
-
-/*/////////////////////////////////////////
-//////  Font Style Starts 
-/////////////////////////////////////////*/
-
-.title {
-	text-align: center;
-	font-family: Work Sans;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 38px;
-	line-height: 45px;
-}
-
-.title_light {
-	color: #ffffff;
-}
-
-.title_secondary {
-	font-family: Work Sans;
-	font-style: normal;
-	font-weight: 600;
-	font-size: 21px;
-	line-height: 150%;
-}
-
-.title_secondary_light {
-	font-family: Work Sans;
-	font-style: normal;
-	font-weight: 600;
-	font-size: 21px;
-	line-height: 150%;
-	color: #ffffff;
-}
-
-.paragraph {
-	font-family: Work Sans;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 160%;
-	text-align: center;
-	color: #707273;
-}
-
-.paragraph_light {
-	color: #ffffff;
-}
-
-/****************** Font Style Ends ******************/
-
-/*/////////////////////////////////////////
-//////  Navbar Style Starts 
-/////////////////////////////////////////*/
-
-.navbar {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.navbar__logo {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.navbar__brand-name {
-	font-family: Work Sans;
-	font-style: normal;
-	font-weight: 600;
-	font-size: 21px;
-	line-height: 150%;
-	margin-left: 5px;
-	color: #252626;
-}
-
-.navbar__menu a {
-	font-style: normal;
-	font-weight: 500;
-	font-size: 16px;
-	padding: 10px 0;
-	
-	color: #969999;
-}
-
-.navbar__menu a:not(:last-child){
-	margin-right: 45px;
-}
-
-.navbar a:hover {
-	color: #35afbf;
-	border-bottom: 2px solid #35afbf;
-}
-
-/****************** Navbar Style Ends ******************/
-
 
 /*/////////////////////////////////////////
 //////  Header Style Starts 
@@ -478,7 +326,6 @@ best-features__features {
 	padding-bottom: 45px;
 }
 
-
 .footer h4 {
 	font-family: Work Sans;
 	font-style: normal;
@@ -506,18 +353,17 @@ best-features__features {
 	opacity: 0.6;
 }
 
-
 .footer__navbar {
 	margin-top: 40px;
 	margin-bottom: 12px;
 }
 
-.footer__menu a:not(:last-child){
+.footer__menu a:not(:last-child) {
 	margin-right: 20px;
 }
 
-.footer__social-link a:not(:last-child){
-margin-right: 40px;
+.footer__social-link a:not(:last-child) {
+	margin-right: 40px;
 }
 
 /****************** Footer Style Ends ******************/
