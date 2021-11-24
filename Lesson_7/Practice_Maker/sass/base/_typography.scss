@@ -1,11 +1,9 @@
-
-/*/////////////////////////////////////////
-//////  Font Style Starts 
-/////////////////////////////////////////*/
+body {
+	font-family: Work Sans;
+}
 
 .title {
 	text-align: center;
-	font-family: Work Sans;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 38px;
@@ -16,16 +14,14 @@
 	color: #ffffff;
 }
 
-.title_secondary {
-	font-family: Work Sans;
+.title-secondary {
 	font-style: normal;
 	font-weight: 600;
 	font-size: 21px;
 	line-height: 150%;
 }
 
-.title_secondary_light {
-	font-family: Work Sans;
+.title-secondary_light {
 	font-style: normal;
 	font-weight: 600;
 	font-size: 21px;
@@ -34,7 +30,6 @@
 }
 
 .paragraph {
-	font-family: Work Sans;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -46,5 +41,3 @@
 .paragraph_light {
 	color: #ffffff;
 }
-
-/****************** Font Style Ends ******************/
