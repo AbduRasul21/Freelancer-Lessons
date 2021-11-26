@@ -1,4 +1,7 @@
-let x='hello';
-let y=x.length;
+let str = "Please locate where 'locate' occurs!";
 
-console.log(y);
+
+document.getElementById('demo').innerHTML=str.indexOf('where');
+
+document.getElementById("demo_2").innerHTML = str.lastIndexOf('where');
+
