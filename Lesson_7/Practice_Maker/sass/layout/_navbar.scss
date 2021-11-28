@@ -20,7 +20,7 @@
 	color: #252626;
 }
 
-.navbar__menu a {
+.navbar__link {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
@@ -29,11 +29,11 @@
 	color: #969999;
 }
 
-.navbar__menu a:not(:last-child){
+.navbar__link:not(:last-child){
 	margin-right: 45px;
 }
 
-.navbar a:hover {
+.navbar__link:hover {
 	color: #35afbf;
 	border-bottom: 2px solid #35afbf;
 }

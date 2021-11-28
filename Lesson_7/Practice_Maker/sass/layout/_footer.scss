@@ -21,7 +21,7 @@
 
 
 
-.footer .p {
+.footer__corp {
 	font-size: 12px;
 	line-height: 160%;
 	color: #ffffff;
@@ -34,10 +34,10 @@
 	margin-bottom: 12px;
 }
 
-.footer__menu a:not(:last-child) {
+.navbar__link:not(:last-child) {
 	margin-right: 20px;
 }
 
-.footer__social-link a:not(:last-child) {
+.footer__social-link .navbar__link:not(:last-child) {
 	margin-right: 40px;
 }
