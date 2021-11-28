@@ -1,3 +1,83 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Work Sans';
+}
+
+body a {
+	text-decoration: none;
+}
+
+/*/////////////////////////////////////////
+//////  Header Style Starts 
+/////////////////////////////////////////*/
+
+/* BEM - Block Element Modifier */
+
+.header {
+	position: relative;
+	width: 1440px;
+	height: 800px;
+	background-color: #f3feff;
+	margin: 0 auto;
+	padding: 35px 0 90px 0;
+	z-index: 1;
+}
+
+.header__main {
+	display: flex;
+	width: 100%;
+}
+
+.header__content {
+	margin-top: 155px;
+	width: 50%;
+}
+
+.header__title {
+	font-family: Work Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 51px;
+	line-height: 125%;
+}
+
+.header__text-blue {
+	font-family: Work Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 51px;
+	line-height: 125%;
+	color: #32a3b2;
+}
+
+.header__paragraph {
+	margin-top: 20px;
+	font-family: Work Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 21px;
+	line-height: 160%;
+	color: #707273;
+}
+
+.header__cta {
+	margin-top: 35px;
+}
+
+.header__image {
+	position: absolute;
+	bottom: 42px;
+	left: 628px;
+	overflow: hidden;
+	z-index: -1;
+}
+
+/****************** Header Style Ends ******************/
 
 /*/////////////////////////////////////////
 //////  Main-content Style Starts 
@@ -57,10 +137,6 @@
 	visibility: visible;
 }
 
-/*/////////////////////////////////////////
-//////  Clients Style Starts 
-/////////////////////////////////////////*/
-
 .clients {
 	display: flex;
 	flex-direction: row;
@@ -94,8 +170,6 @@
 	background-color: transparent;
 	color: #35afbf;
 }
-
-/****************** Clients Style Ends ******************/
 
 /****************** Main-content Style Ends ******************/
 
@@ -167,6 +241,7 @@
 }
 
 .testimonial__paragraph {
+	font-family: Work Sans;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 32px;
@@ -183,6 +258,7 @@
 }
 
 .testimonial__profile h4 {
+	font-family: Work Sans;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 21px;
@@ -192,6 +268,7 @@
 }
 
 .testimonial__profile h6 {
+	font-family: Work Sans;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 12px;
@@ -242,6 +319,7 @@
 }
 
 .footer h4 {
+	font-family: Work Sans;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 45px;
