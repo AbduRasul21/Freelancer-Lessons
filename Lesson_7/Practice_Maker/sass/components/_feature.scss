@@ -1,0 +1,26 @@
+.feature{
+	display: flex;
+	flex-direction: column;
+	width: 315px;
+	/* background-color: rgb(185, 183, 187); */
+	text-align: center;
+	align-items: center;
+	position: relative;
+	margin-top: 50px;
+}
+
+
+
+.feature__image {
+	width: 80px;
+	height: 80px;
+}
+
+.feature__title{
+	margin-top: 30px;
+}
+
+.feature__paragraph{
+	margin-top: 15px;
+	margin-bottom: 30px;
+}

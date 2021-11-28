@@ -1,0 +1,37 @@
+.features-feature {
+	display: flex;
+	flex-direction: column;
+	width: 261px;
+	/* background-color: rgb(185, 183, 187); */
+	text-align: center;
+	align-items: center;
+	position: relative;
+}
+
+.features-feature-background {
+	position: absolute;
+	visibility: hidden;
+}
+
+.features-feature__image {
+	position: relative;
+	width: 83px;
+	margin: 30px 89px 0px;
+}
+
+.features-feature__title-secondary {
+	margin-top: 20px;
+}
+.features-feature__paragraph {
+	margin: 10px 22px 35px;
+}
+
+.features-feature:hover {
+	border-radius: 10px;
+	outline: 1px solid #a3e0e8;
+	background: #d1f4f9;
+}
+
+.features-feature:hover .features-feature-background {
+	visibility: visible;
+}

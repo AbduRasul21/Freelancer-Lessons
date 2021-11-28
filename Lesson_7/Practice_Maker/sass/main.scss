@@ -1,8 +1,17 @@
 @import 'base/typography';
+@import 'base/reset';
 
 @import 'layout/navbar';
+@import 'layout/header';
+@import 'layout/service-section';
+
+
+
+
+
 
 @import 'components/button';
 @import 'components/container';
+@import 'components/features-feature';
 
 @import 'pages/home';

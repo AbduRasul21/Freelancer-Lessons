@@ -1,93 +1,13 @@
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
-
-body {
-	font-family: 'Work Sans';
-}
-
-body a {
-	text-decoration: none;
-}
-
 /*/////////////////////////////////////////
-//////  Header Style Starts 
+//////  Service-section Style Starts 
 /////////////////////////////////////////*/
 
-/* BEM - Block Element Modifier */
-
-.header {
-	position: relative;
-	width: 1440px;
-	height: 800px;
-	background-color: #f3feff;
-	margin: 0 auto;
-	padding: 35px 0 90px 0;
-	z-index: 1;
-}
-
-.header__main {
-	display: flex;
-	width: 100%;
-}
-
-.header__content {
-	margin-top: 155px;
-	width: 50%;
-}
-
-.header__title {
-	font-family: Work Sans;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 51px;
-	line-height: 125%;
-}
-
-.header__text-blue {
-	font-family: Work Sans;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 51px;
-	line-height: 125%;
-	color: #32a3b2;
-}
-
-.header__paragraph {
-	margin-top: 20px;
-	font-family: Work Sans;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 21px;
-	line-height: 160%;
-	color: #707273;
-}
-
-.header__cta {
-	margin-top: 35px;
-}
-
-.header__image {
-	position: absolute;
-	bottom: 42px;
-	left: 628px;
-	overflow: hidden;
-	z-index: -1;
-}
-
-/****************** Header Style Ends ******************/
-
-/*/////////////////////////////////////////
-//////  Main-content Style Starts 
-/////////////////////////////////////////*/
-
-.main-content__title {
+.service-section {
 	margin-top: 120px;
+	max-width: 1135px;
 }
 
-.main-content__paragraph {
+.service-section__paragraph {
 	margin-top: 25px;
 	margin-left: 268px;
 	margin-right: 270px;
@@ -98,45 +18,14 @@ body a {
 	flex-direction: row;
 	justify-content: space-between;
 	margin-top: 60px;
-}
-.features__feature {
-	display: flex;
-	flex-direction: column;
-	width: 261px;
-	/* background-color: rgb(185, 183, 187); */
-	text-align: center;
-	align-items: center;
-	position: relative;
+	flex-wrap: wrap;
 }
 
-.features__feature-background {
-	position: absolute;
-	visibility: hidden;
-}
+/****************** Service-section Style Ends ******************/
 
-.features__image {
-	position: relative;
-	width: 83px;
-	margin: 30px 89px 0px;
-}
-
-.features__title_secondary {
-	margin-top: 20px;
-}
-.features__paragraph {
-	margin: 10px 22px 35px;
-}
-
-.features__feature:hover {
-	border-radius: 10px;
-	outline: 1px solid #a3e0e8;
-	background: #d1f4f9;
-}
-
-.features__feature:hover .features__feature-background {
-	visibility: visible;
-}
-
+/*/////////////////////////////////////////
+//////  Clients Style Starts 
+/////////////////////////////////////////*/
 .clients {
 	display: flex;
 	flex-direction: row;
@@ -171,14 +60,14 @@ body a {
 	color: #35afbf;
 }
 
-/****************** Main-content Style Ends ******************/
+/****************** Clients Style Ends ******************/
 
 /*/////////////////////////////////////////
 //////  Video-section Style Starts 
 /////////////////////////////////////////*/
 
 .video-section {
-	width: 1451px;
+	max-width: 1451px;
 	height: 501px;
 	margin: 0 auto;
 	background-image: url(../images/Background_how_we_work.svg);
@@ -188,24 +77,26 @@ body a {
 	text-align: center;
 	color: #ffffff;
 	padding: 128px 337px 128px 328px;
+	
 }
 
-.video-section p {
+.video-section__paragraph-light{
 	margin-top: 20px;
+	color: #ffffff;
 }
 
 .video-section__image {
 	margin-top: 36px;
 }
 
-/****************** Main-content Style Ends ******************/
+/****************** Video-section Style Ends ******************/
 
 /*/////////////////////////////////////////
-//////  Main-content Style Starts 
+//////  Best-features Style Starts 
 /////////////////////////////////////////*/
 
 .best-features {
-	width: 1096px;
+	max-width: 1096px;
 	margin: 120px auto;
 	text-align: center;
 }
@@ -215,15 +106,16 @@ body a {
 }
 
 .best-features__features {
-	margin-top: 60px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 10px;
+
 }
 
-.best-features__image {
-	width: 80px;
-	height: 80px;
-}
 
-/****************** Main-content Style Ends ******************/
+/****************** Best-features Style Ends ******************/
 
 /*/////////////////////////////////////////
 //////  Testimonial Style Starts 
@@ -241,8 +133,6 @@ body a {
 }
 
 .testimonial__paragraph {
-	font-family: Work Sans;
-	font-style: normal;
 	font-weight: 500;
 	font-size: 32px;
 	line-height: 140%;
@@ -251,13 +141,14 @@ body a {
 	margin: 40px 0 35px;
 }
 
+
 .testimonial__profile {
 	display: inline-flex;
 	flex-direction: row;
 	margin-top: 35px;
 }
 
-.testimonial__profile h4 {
+.testimonial__profile__name {
 	font-family: Work Sans;
 	font-style: normal;
 	font-weight: 500;
@@ -267,7 +158,7 @@ body a {
 	margin: 8px 0 0 16px;
 }
 
-.testimonial__profile h6 {
+.testimonial__profile__profession {
 	font-family: Work Sans;
 	font-style: normal;
 	font-weight: 500;
@@ -301,8 +192,7 @@ body a {
 
 .footer {
 	background-color: #2c353e;
-	width: 1440px;
-	height: 589px;
+	max-width: 1440px;
 	margin: 0 auto;
 }
 
@@ -313,21 +203,24 @@ body a {
 .footer__blocks {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	border-bottom: 1px solid #4b4b4b;
 	padding-bottom: 45px;
 }
 
-.footer h4 {
-	font-family: Work Sans;
-	font-style: normal;
-	font-weight: normal;
+.cost-block{
+	width: 206px;
+	background-color: aliceblue;
+}
+
+.cost-block__price {
 	font-size: 45px;
 	line-height: 45px;
 	color: #ffffff;
 }
 
-.footer__span {
+.cost-block__span {
 	font-size: 16px;
 }
 
@@ -338,11 +231,14 @@ body a {
 	text-align: left;
 }
 
+
+
 .footer .p {
 	font-size: 12px;
 	line-height: 160%;
 	color: #ffffff;
 	opacity: 0.6;
+	display: block;
 }
 
 .footer__navbar {
