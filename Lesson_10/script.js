@@ -1,4 +1,4 @@
-const fruits = ["Banana", "Apple", "Orange", "Mango","PineApple", "Cocos"];
+const fruits = ["Banana", "Apple", "Orange", "Mango", "PineApple", "Cocos"];
 
 let fLen = fruits.length;
 
@@ -12,6 +12,7 @@ text += "</ul>";
 console.log(text);
 
 document.getElementById("demo").innerHTML = text;
-document.getElementById("demo-2").innerHTML = fruits.join("  ");
-document.getElementById("demo-3").innerHTML = fruits.toString();
+document.getElementById("demo-2").innerHTML = fruits.join(" ");
+document.getElementById("demo-3").innerHTML = fruits.sort();
+
 
