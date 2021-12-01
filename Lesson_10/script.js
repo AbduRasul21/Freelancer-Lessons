@@ -1,8 +1,8 @@
 const fruits = ["Banana", "Apple", "Orange", "Mango", "PineApple", "Cocos"];
 
 let fLen = fruits.length;
-
 let text = "<ul>";
+const d=new Date();
 
 for (let i = 0; i < fLen; i++) {
   text += "<li>" + fruits[i] + "</li>";
@@ -13,6 +13,4 @@ console.log(text);
 
 document.getElementById("demo").innerHTML = text;
 document.getElementById("demo-2").innerHTML = fruits.join(" ");
-document.getElementById("demo-3").innerHTML = fruits.sort();
-
-
+document.getElementById("demo-3").innerHTML = d.toISOString();
