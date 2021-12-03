@@ -12,15 +12,17 @@
 
 
 
-// var text = " ";
+// var text = "<ul id='ddd'>";
 // const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
-// for (let x in cars ) {
-//  text += cars[x] + " ";
+// for (var x of cars ) {
+//  text += "<li>" + x + "</li>";
 //     }
 
- 
+//  var text = text + "</ul>";
 
 // document.getElementById("demo").innerHTML = text;
+// document.getElementById("ddd").style.listStyleType = "disc";
+
 
 const numbers = [45, 4, 9, 16, 25];
 
