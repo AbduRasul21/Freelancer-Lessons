@@ -2,39 +2,37 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-}
 
-.navbar__logo {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
+	&__logo {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 
-.navbar__brand-name {
-	font-family: Work Sans;
-	font-style: normal;
-	font-weight: 600;
-	font-size: 21px;
-	line-height: 150%;
-	margin-left: 5px;
-	color: #252626;
-}
+	&__brand-name {
+		font-family: Work Sans;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 21px;
+		line-height: 150%;
+		margin-left: 5px;
+		color: #252626;
+	}
 
-.navbar__link {
-	font-style: normal;
-	font-weight: 500;
-	font-size: 16px;
-	padding: 10px 0;
-	
-	color: #969999;
-}
+	&__link {
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		padding: 10px 0;
+		color: #969999;
 
-.navbar__link:not(:last-child){
-	margin-right: 45px;
-}
+		&:not(:last-child) {
+			margin-right: 45px;
+		}
 
-.navbar__link:hover {
-	color: #35afbf;
-	border-bottom: 2px solid #35afbf;
+		&:hover {
+			color: $primary-color;
+			border-bottom: 2px solid $primary-color;
+		}
+	}
 }
-

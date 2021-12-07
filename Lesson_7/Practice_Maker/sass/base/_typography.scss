@@ -8,6 +8,7 @@
 	font-display: swap;
 	src: url('/Lesson_7/Practice_Maker/sass/base/Work_Sans/static/WorkSans-Regular.ttf');
 }
+
 body {
 	font-family: Work Sans;
 }
@@ -18,10 +19,10 @@ body {
 	font-weight: bold;
 	font-size: 38px;
 	line-height: 45px;
-}
 
-.title_light {
-	color: #ffffff;
+	&_light {
+		color: #ffffff;
+	}
 }
 
 .title-secondary {
@@ -29,14 +30,10 @@ body {
 	font-weight: 600;
 	font-size: 21px;
 	line-height: 150%;
-}
 
-.title-secondary_light {
-	font-style: normal;
-	font-weight: 600;
-	font-size: 21px;
-	line-height: 150%;
-	color: #ffffff;
+	&_light {
+		color: #ffffff;
+	}
 }
 
 .paragraph {
@@ -46,8 +43,22 @@ body {
 	line-height: 160%;
 	text-align: center;
 	color: #707273;
+
+	&-light {
+		color: #ffffff;
+	}
 }
 
-.paragraph-light {
+.helper {
+	font-size: 12px;
+	line-height: 160%;
 	color: #ffffff;
 }
+
+// Displays: one-six 
+// Headings: one-six
+// Bodies: one-two
+// Button
+// Caption
+// Helper
+// Quote
