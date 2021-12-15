@@ -10,19 +10,11 @@
 	}
 
 	&__brand-name {
-		font-family: Work Sans;
-		font-style: normal;
-		font-weight: 600;
-		font-size: 21px;
-		line-height: 150%;
 		margin-left: 5px;
 		color: #252626;
 	}
 
 	&__link {
-		font-style: normal;
-		font-weight: 500;
-		font-size: 16px;
 		padding: 10px 0;
 		color: #969999;
 
@@ -33,6 +25,9 @@
 		&:hover {
 			color: $primary-color;
 			border-bottom: 2px solid $primary-color;
+		}
+		&:not(:last-child) {
+			margin-right: 20px;
 		}
 	}
 }

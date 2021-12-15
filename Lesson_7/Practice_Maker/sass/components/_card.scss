@@ -1,0 +1,38 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	width: 261px;
+	/* background-color: rgb(185, 183, 187); */
+	text-align: center;
+	align-items: center;
+	position: relative;
+
+	&__background {
+		position: absolute;
+		visibility: hidden;
+	}
+
+	&__image {
+		position: relative;
+		width: 83px;
+		margin: 30px 89px 0px;
+	}
+
+	&__title-secondary {
+		margin-top: 20px;
+	}
+
+	&__paragraph {
+		margin: 10px 22px 35px;
+	}
+
+	&:hover {
+		border-radius: 10px;
+		outline: 1px solid #a3e0e8;
+		background: #d1f4f9;
+	}
+
+	&:hover .card__background {
+		visibility: visible;
+	}
+}

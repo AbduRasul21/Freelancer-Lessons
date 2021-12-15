@@ -1,4 +1,4 @@
-.feature{
+.feature {
 	display: flex;
 	flex-direction: column;
 	width: 315px;
@@ -6,18 +6,18 @@
 	align-items: center;
 	position: relative;
 	margin-top: 50px;
-}
 
-.feature__image {
-	width: 80px;
-	height: 80px;
-}
+	&__image {
+		width: 80px;
+		height: 80px;
+	}
 
-.feature__title{
-	margin-top: 30px;
-}
+	&__title {
+		margin-top: 30px;
+	}
 
-.feature__paragraph{
-	margin-top: 15px;
-	margin-bottom: 30px;
+	&__paragraph {
+		margin-top: 15px;
+		margin-bottom: 30px;
+	}
 }
