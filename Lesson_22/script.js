@@ -1,3 +1,6 @@
+// JavaScript basic [150 exercises with solution]
+
+// ----------------------------------------------------------------#1
 switch (new Date().getDay()) {
   case 0:
     day = "Sunday";
@@ -36,6 +39,25 @@ const time = d.toLocaleTimeString();
 currentDay.innerHTML = "Today is: " + day;
 currentTime.innerHTML = "Current time is:" + time;
 
+// ----------------------------------------------------------------#2
+
 function print_current_window() {
-    window.print();
+  window.print();
 }
+
+// ----------------------------------------------------------------#3
+
+const dd = d.getDate();
+const mm = d.getMonth() + 1;
+const yy = d.getFullYear();
+
+if (dd < 10) {
+  dd = "0" + dd;
+}
+
+if (mm < 10) {
+  mm = "0" + mm;
+}
+
+console.log(mm + "-" + dd + "-" + yy);
+console.log(mm + "/" + dd + "/" + yy);
