@@ -47,21 +47,21 @@
 
 // ----------------------------------------------------------------#3
 
-// const d = new Date();
-// const dd = d.getDate();
-// const mm = d.getMonth() + 1;
-// const yy = d.getFullYear();
+const d = new Date();
+var dd = d.getDate();
+var mm = d.getMonth() + 1;
+var yy = d.getFullYear();
 
-// // if (dd < 10) {
-// //   dd = "0" + dd;
-// // }
+if (dd < 10) {
+  dd = "0" + dd;
+}
 
-// // if (mm < 10) {
-// //   mm = "0" + mm;
-// // }
+if (mm < 10) {
+  mm = "0" + mm;
+}
 
-// console.log(mm + "-" + dd + "-" + yy);
-// console.log(mm + "/" + dd + "/" + yy);
+console.log(mm + "-" + dd + "-" + yy);
+console.log(mm + "/" + dd + "/" + yy);
 
 // ----------------------------------------------------------------#4
 
