@@ -100,3 +100,29 @@
 // currentDay.innerHTML= txt;
 
 // ----------------------------------------------------------------#7
+
+// for (let year = 2014; year <= 2050; year++) {
+//   const d = new Date(year, 0, 1);
+//   var day = d.getDay();
+//   if (day == 0) {
+//     console.log("1st January is being a Sunday  " + year);
+//   }
+// }
+
+// ----------------------------------------------------------------#8
+
+// var x = parseInt(prompt("Enter Number between 1 10", ""));
+// var y = Math.round((Math.random() * 10));
+
+// if (x == y) {
+//   console.log("Good Work");
+// } else {
+//   console.log("Not Matched");
+// }
+
+// console.log(y);
+
+
+// ----------------------------------------------------------------#9
+
+
