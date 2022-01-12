@@ -47,24 +47,23 @@
 
 // ----------------------------------------------------------------#3
 
-const d = new Date();
-var dd = d.getDate();
-var mm = d.getMonth() + 1;
-var yy = d.getFullYear();
+// const d = new Date();
+// var dd = d.getDate();
+// var mm = d.getMonth() + 1;
+// var yy = d.getFullYear();
 
-if (dd < 10) {
-  dd = "0" + dd;
-}
+// if (dd < 10) {
+//   dd = "0" + dd;
+// }
 
-if (mm < 10) {
-  mm = "0" + mm;
-}
+// if (mm < 10) {
+//   mm = "0" + mm;
+// }
 
-console.log(mm + "-" + dd + "-" + yy);
-console.log(mm + "/" + dd + "/" + yy);
+// console.log(mm + "-" + dd + "-" + yy);
+// console.log(mm + "/" + dd + "/" + yy);
 
 // ----------------------------------------------------------------#4
-
 
 // var x = 5;
 // var y = 6;
@@ -75,3 +74,29 @@ console.log(mm + "/" + dd + "/" + yy);
 // console.log(s);
 
 // ----------------------------------------------------------------#5
+
+// ----------------------------------------------------------------#6
+
+// var x = parseInt(prompt("Please enter a year", ""));
+// var txt ="";
+// var currentDay = document.getElementById("currentDay");
+// function isLeapYear(x) {
+//   if (x % 100 == 0) {
+//     if (x % 400 == 0) {
+//       txt = "Leap year";
+//     } else {
+//       txt = "Not Leap year";
+//     }
+//   } else {
+//     if (x % 4 == 0) {
+//       txt = "Leap year";
+//     } else {
+//       txt = "Not Leap year";
+//     }
+//   }
+// }
+
+// isLeapYear(x);
+// currentDay.innerHTML= txt;
+
+// ----------------------------------------------------------------#7
